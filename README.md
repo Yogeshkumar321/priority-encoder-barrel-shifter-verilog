@@ -80,7 +80,7 @@ cd fpga-combinational-task2
 
 ## 🔬 Implementation Details
 
-### 📐 Schematic: Priority Encoder
+### Priority Encoder
 
 - Inputs: `in[7:0]`
 - Output: `out[2:0]` + `valid`
@@ -96,7 +96,7 @@ cd fpga-combinational-task2
 
 ---
 
-### 📐 Schematic: Barrel Shifter
+###  Barrel Shifter
 
 - Inputs: `dat_i[7:0]`, `dir`, `shift_amt[2:0]`
 - Output: `data_out[7:0]`
@@ -113,15 +113,26 @@ cd fpga-combinational-task2
 
 ---
 
+### 🔸 Priority Encoder
+---
 ## 🔍 Simulation Output
 
-### 🔸 Priority Encoder
+![Priority Encoder Waveform](priorityencoderwaveform.png)
+---
+## 🔍 schematic Output
 
-![Priority Encoder Waveform](screenshots/priority_encoder_waveform.png)
-
+![Priority Encoder schematic](priorityencoderschematic.png)
+---
 ### 🔸 Barrel Shifter
+---
+## 🔍 Simulation Output
 
-![Barrel Shifter Waveform](screenshots/barrel_shifter_waveform.png)
+![Barrel Shifter Waveform](barrelshifterwaveform.png)
+
+---
+## 🔍 schematic Output
+
+![barrel shifter schematic](barrelshifterschematic.png)
 
 ---
 
